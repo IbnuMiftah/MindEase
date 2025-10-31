@@ -1,4 +1,4 @@
-# 🌿 MindEase: A Mental Health Support Platform 
+#  MindEase: A Mental Health Support Platform 
 > IP-Group-Project
 
 ### _A Calming and Supportive Website for Mental Wellness_
@@ -15,7 +15,7 @@ The goal of MindEase is to create a **safe and comforting digital space** that s
 
 ---
 
-## 👥 **Group Members**
+##  **Group Members**
 
 | Name | ID Number | GitHub Username |
 | :--- | :-------- | :-------------- |
@@ -29,7 +29,14 @@ The goal of MindEase is to create a **safe and comforting digital space** that s
 
 ---
 
-## 📁 **Project File Structure**
+
+##  Planned Tech Stack  
+- **HTML5** – structure and content  
+- **CSS3** – design and layout  
+- **JavaScript** – interactivity  
+- **Git & GitHub** – version control and collaboration  
+
+## 📁**Project File Structure**
 
 The project is organized to separate **content**, **styling**, and **functionality** for clarity and maintainability.
 ``` bash
