@@ -32,7 +32,7 @@ The goal of MindEase is to create a **safe and comforting digital space** that s
 ## 📁 **Project File Structure**
 
 The project is organized to separate **content**, **styling**, and **functionality** for clarity and maintainability.
-
+``` bash
 MindEase/
 │
 ├── index.html # Home page
@@ -46,3 +46,4 @@ MindEase/
 ├── main.js # JavaScript for interactivity
 │
 └── images/ # Folder containing all images and icons
+```
