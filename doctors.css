@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef5f9;
+}
+
+header {
+    background: #7bb3c8;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.title {
+    text-align: center;
+    margin-top: 40px;
+    color: #7bb3c8;
+}
+
+/* Cards */
+.doctors-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.doctor-card {
+    background: white;
+    width: 240px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.doctor-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #7bb3c8;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
