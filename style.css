@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  background-color: #eafff0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.mindEase {
+  text-decoration: none;
+  color: #2dcf57;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navbar-lists {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-lists a {
+  text-decoration: none;
+  color: rgb(61, 54, 54);
+  font-weight: 600;
+}
+
+.navbar-btns {
+  display: flex;
+  gap: 15px;
+}
+
+.login-btn {
+  color: rgb(61, 54, 54);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-btn {
+  background-color: #2dcf57;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-mini-container {
+  margin-left: 120px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+
+.hero-h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.hero-p1 {
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-btn1 {
+  background-color: #2dcf57;
+  padding: 8px 13px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hero-btn2 {
+  background-color: #eafff0;
+  padding: 8px 13px;
+  font-size: 16px;
+  color: black;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
