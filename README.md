@@ -24,7 +24,6 @@ The goal of MindEase is to create a **safe and comforting digital space** that s
 | Leul Zegeye | ETS0815/15 | [@Leul-zegeye](https://github.com/Leul-zegeye) |
 | Addisalem Mengistu | ETS0101/16 | [@adisalem-mengistu](https://github.com/adisalem-mengistu) |
 | Aelaf Anteneh | ETS0102/15 | [@Aelafabz](https://github.com/Aelafabz) |
-| Addis Shiferaw | ETS0009/16 | *Pending* |
 | Semahegn Samuel | ETS1227/15 |[@semisam98](https://github.com/semisami98/Myworks.git) |
 
 ---
