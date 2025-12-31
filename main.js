@@ -68,6 +68,34 @@ function changeCard(direction) {
   document.getElementById("writtenReview").textContent = card.review;
 }
 
+// Button Interactivity
+document.querySelectorAll(".login-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    alert("Login functionality coming soon!");
+  });
+});
+
+document.querySelectorAll(".signup-btn").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    alert("Signup functionality coming soon!");
+  });
+});
+
+document.querySelectorAll(".ap-btn, .hero-btn1").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const contactSection = document.getElementById("our-contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+});
+
+document.querySelectorAll(".hero-btn2").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    window.location.href = "doctors.html";
+  });
+});
+
 document
   .querySelector(".request-right")
   .addEventListener("submit", function (event) {
@@ -81,4 +109,7 @@ document
     console.log("Name:", name);
     console.log("Phone Number:", phone);
     console.log("Date:", date);
+
+    alert(`Thank you, ${name}! Your request for ${date} has been submitted. We will call you at ${phone} soon.`);
+    event.target.reset();
   });
