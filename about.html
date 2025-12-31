@@ -1,36 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>About - MindEase</title>
-    <link rel="stylesheet" href="about.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindEase Mental Health Support</title>
+    <link rel="icon" href="images/clinic.png" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 
 <body>
+    <div class="container">
+        <header class="navbar">
+            <a href="#" class="blu">MindEase</a>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="navbar-lists">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="doctors.html">Doctors</a>
+                <a href="index.html#our-services">Services</a>
+                <a href="#our-contact">Contact</a>
+            </div>
+            <div class="navbar-btns">
+                <button class="login-btn">Log In</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+        </header>
+    </div>
 
-<header>
-    <h1>MindEase</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="doctors.html">Support</a>
-    </nav>
-</header>
+    <div class="other-sections">
+        <section>
+            <div class="why-part">
+                <h1 class="why-h1">About Us</h1>
+                <p class="why-p1">
+                    Our team of experienced professionals provides a wide range of
+                    services, including counseling, therapy, and advanced treatments,
+                    all tailored to meet your unique needs.
+                </p>
+            </div>
 
-<section class="about-box">
-    <h2>About MindEase</h2>
+            <div class="why-container">
+                <img class="meeting-img" src="images/about.png" alt="" />
+                <div class="why-lists">
+                    <div>
+                        <div class="why-reasons">
+                            <img src="images/line.png" alt="" />
+                            <div class="inside-why">
+                                <div class="last-why">
+                                    <h3 class="why-h3">Before 2015</h3>
+                                </div>
+                                <p class="why-p">
+                                    Our journey began with a commitment to raising awareness
+                                    about mental health. Built a team of passionate
+                                    professionals dedicated to providing compassionate and
+                                    accessible care.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="why-reasons">
+                            <img src="images/line.png" alt="" />
+                            <div class="inside-why">
+                                <div class="last-why">
+                                    <h3 class="why-h3">2015 - 2018</h3>
+                                </div>
+                                <p class="why-p">
+                                    Laid the groundwork for personalized mental health care.
+                                    Began incorporating modern techniques such as mindfulness
+                                    and cognitive behavioral therapy (CBT) to address individual
+                                    challenges.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="why-reasons">
+                            <img src="images/line.png" alt="" />
+                            <div class="inside-why">
+                                <div class="last-why">
+                                    <h3 class="why-h3">2018 - 2022</h3>
+                                </div>
+                                <p class="why-p">
+                                    Strengthened our foundation by introducing evidence-based
+                                    therapies and fostering strong community connections through
+                                    support groups and outreach programs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="why-reasons">
+                            <img src="images/line.png" alt="" />
+                            <div class="inside-why">
+                                <div class="last-why">
+                                    <h3 class="why-h3">2022 - 2027</h3>
+                                </div>
+                                <p class="why-p">
+                                    Focused on growth and innovation in mental health services.
+                                    Expanded offerings to include advanced therapies, support
+                                    groups, and holistic care approaches to meet diverse needs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <p>
-        MindEase is a mental health support platform created by AASTU students 
-        to provide a peaceful digital environment. Our goal is to help people 
-        manage stress, practice self-care, and connect with support when needed.
-    </p>
+        <section id="our-contact" class="appointment-container">
+            <p>Need a doctor's counseling?</p>
+            <h1 class="ap-h1">Just Make An Appointment Here</h1>
+            <button class="ap-btn">Get Appointment</button>
+        </section>
 
-    <p>
-        We believe mental wellness is essential, and technology can help make 
-        support more accessible to everyone.
-    </p>
-</section>
+        <section>
+            <div class="request-section">
+                <div class="request-left">
+                    <p>Need a Doctor's Counseling?</p>
+                    <h1>Request a Call Back Now</h1>
+                    <p>By filling out this form, you can easily request a call back.</p>
+                    <div class="doc-request">
+                        <img class="profile-img" src="images/profile.png" alt="" />
+                        <p>Our doctors are waiting for your call.</p>
+                    </div>
+                </div>
+                <form class="request-right">
+                    <input type="text" name="name" placeholder="Your Name" class="input" required />
+                    <input type="number" name="phone" placeholder="Your Phone Number" class="input" required />
+                    <input type="text" name="date" class="input" placeholder="Date" required />
+                    <button type="submit" class="submit-btn">Request Now</button>
+                </form>
+                <div></div>
+            </div>
+        </section>
+    </div>
 
+    <footer class="footer-container">
+        <div class="footer">
+            <div>
+                <a href="#" class="blu">MindEase</a>
+                <p class="footer-p1">
+                    Our goal is to empower you with the knowledge and support needed to
+                    build resilience, strengthen your mental health, and lead a more
+                    fulfilling life.
+                </p>
+                <div class="links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h3 class="footer-h3">Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="doctors.html">Doctors</a>
+                    <a href="index.html#our-services">Services</a>
+                    <a href="#our-contact">Contact</a>
+                </div>
+            </div>
+            <div>
+                <h3 class="footer-h3">Services</h3>
+                <div class="footer-links">
+                    <a href="#">Vaccination</a>
+                    <a href="#">NDD</a>
+                    <a href="#">Filled Prescription As Is</a>
+                    <a href="#">Patient Referral</a>
+                    <a href="#">Other Roofing</a>
+                </div>
+            </div>
+            <div>
+                <h3 class="footer-h3">Location</h3>
+                <p class="footer-p1">
+                    Our goal is to empower you with the knowledge and support needed to
+                    build resilience, strengthen your mental health, and lead a more
+                    fulfilling life.
+                </p>
+            </div>
+        </div>
+        <hr />
+        <p class="footer-p">&copy; 2025 All Rights Reserved</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
+
 </html>

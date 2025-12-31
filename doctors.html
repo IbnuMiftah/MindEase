@@ -1,48 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Support - MindEase</title>
-    <link rel="stylesheet" href="doctors.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MindEase Mental Health Support</title>
+    <link rel="icon" href="images/clinic.png" />
+    <link rel="stylesheet" href="doctors.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 
 <body>
-
-<header>
-    <h1>MindEase</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="doctors.html">Support</a>
-    </nav>
-</header>
-
-<h2 class="title">Meet Our Support Team</h2>
-
-<div class="doctors-container">
-
-    <div class="doctor-card">
-        <img src="images\image1.png" alt="Doctor">
-        <h3>Dr. Hana Solomon</h3>
-        <p>Clinical Psychologist</p>
-        <button>Contact</button>
+    <div class="container">
+        <header class="navbar">
+            <a href="#" class="blu">MindEase</a>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="navbar-lists">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="doctors.html">Doctors</a>
+                <a href="index.html#our-services">Services</a>
+                <a href="#our-contact">Contact</a>
+            </div>
+            <div class="navbar-btns">
+                <button class="login-btn">Log In</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+        </header>
     </div>
 
-    <div class="doctor-card">
-        <img src="images\image2.png" alt="Doctor">
-        <h3>Dr. Daniel T.</h3>
-        <p>Mental Health Counselor</p>
-        <button>Contact</button>
+    <div class="other-sections">
+        <section>
+            <h1 class="team-h1">Our Team</h1>
+            <p class="team-p">
+                We are a passionate group of mental health professionals dedicated to
+                supporting your journey to well-being. Our team includes:
+            </p>
+
+            <div class="team-container">
+                <div class="team-profile">
+                    <img class="team-img" src="images/one.png" alt="" />
+                    <div class="team-details">
+                        <h1 class="team-name">Jana Scott</h1>
+                        <p class="team-job">Trauma Specialist</p>
+                        <p class="team-desc">
+                            Is a compassionate and highly experienced trauma specialist with
+                            over a decade of expertise in helping individuals.
+                        </p>
+                        <div class="links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-profile">
+                    <img class="team-img" src="images/two.png" alt="" />
+                    <div class="team-details">
+                        <h1 class="team-name">Ling Chan</h1>
+                        <p class="team-job">PTSD specialist</p>
+                        <p class="team-desc">
+                            Is a dedicated PTSD specialist with extensive experience in
+                            helping individuals recover from post-traumatic stress.
+                        </p>
+                        <div class="links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-profile">
+                    <img class="team-img" src="images/three.png" alt="" />
+                    <div class="team-details">
+                        <h1 class="team-name">Bob Doe</h1>
+                        <p class="team-job">Anxiety Specialist</p>
+                        <p class="team-desc">
+                            Is a skilled anxiety specialist, using techniques like CBT and
+                            mindfulness to help clients manage and reduce anxiety.
+                        </p>
+                        <div class="links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-profile">
+                    <img class="team-img" src="images/four.png" alt="" />
+                    <div class="team-details">
+                        <h1 class="team-name">Steven Adam</h1>
+                        <p class="team-job">General Specialist</p>
+                        <p class="team-desc">
+                            Is a versatile mental health specialist with expertise in
+                            treating conditions, including anxiety and depression,
+                        </p>
+                        <div class="links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="team-container">
+                <div class="team-profile">
+                    <img class="team-img" src="images/five.png" alt="" />
+                    <div class="team-details">
+                        <h1 class="team-name">Solomon White</h1>
+                        <p class="team-job">Depression & Social Anxiety</p>
+                        <p class="team-desc">
+                            Iis an expert in treating depression and social anxiety, using
+                            evidence-based approaches.
+                        </p>
+                        <div class="links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-profile">
+                    <img class="team-img" src="images/six.png" alt="" />
+                    <div class="team-details">
+                        <h1 class="team-name">Norman Button</h1>
+                        <p class="team-job">General Specialist</p>
+                        <p class="team-desc">
+                            Is a skilled general mental health specialist, experienced in
+                            treating conditions, including anxiety and depression.
+                        </p>
+                        <div class="links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-profile">
+                    <img class="team-img" src="images/seven.png" alt="" />
+                    <div class="team-details">
+                        <h1 class="team-name">Matthew Toreto</h1>
+                        <p class="team-job">Trauma Specialist</p>
+                        <p class="team-desc">
+                            Is a compassionate and highly experienced trauma specialist with
+                            over a decade of expertise in helping individuals.
+                        </p>
+                        <div class="links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-profile">
+                    <img class="team-img" src="images/eight.png" alt="" />
+                    <div class="team-details">
+                        <h1 class="team-name">Leslie Livingston</h1>
+                        <p class="team-job">Anxiety Specialist</p>
+                        <p class="team-desc">
+                            Is an experienced anxiety specialist, helping clients manage and
+                            reduce anxiety using CBT.
+                        </p>
+                        <div class="links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="our-contact" class="appointment-container">
+            <p>Need a doctor's counseling?</p>
+            <h1 class="ap-h1">Just Make An Appointment Here</h1>
+            <button class="ap-btn">Get Appointment</button>
+        </section>
+
+        <section>
+            <div class="request-section">
+                <div class="request-left">
+                    <p>Need a Doctor's Counseling?</p>
+                    <h1>Request a Call Back Now</h1>
+                    <p>By filling out this form, you can easily request a call back.</p>
+                    <div class="doc-request">
+                        <img class="profile-img" src="images/profile.png" alt="" />
+                        <p>Our doctors are waiting for your call.</p>
+                    </div>
+                </div>
+                <form class="request-right">
+                    <input type="text" name="name" placeholder="Your Name" class="input" required />
+                    <input type="number" name="phone" placeholder="Your Phone Number" class="input" required />
+                    <input type="text" name="date" class="input" placeholder="Date" required />
+                    <button type="submit" class="submit-btn">Request Now</button>
+                </form>
+                <div></div>
+            </div>
+        </section>
     </div>
 
-    <div class="doctor-card">
-        <img src="images\image3.png" alt="Doctor">
-        <h3>Dr. Selam A.</h3>
-        <p>Therapist</p>
-        <button>Contact</button>
-    </div>
+    <footer class="footer-container">
+        <div class="footer">
+            <div>
+                <a href="#" class="blu">MindEase</a>
+                <p class="footer-p1">
+                    Our goal is to empower you with the knowledge and support needed to
+                    build resilience, strengthen your mental health, and lead a more
+                    fulfilling life.
+                </p>
+                <div class="links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h3 class="footer-h3">Quick Links</h3>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="doctors.html">Doctors</a>
+                    <a href="index.html#our-services">Services</a>
+                    <a href="#our-contact">Contact</a>
+                </div>
+            </div>
+            <div>
+                <h3 class="footer-h3">Services</h3>
+                <div class="footer-links">
+                    <a href="#">Vaccination</a>
+                    <a href="#">NDD</a>
+                    <a href="#">Filled Prescription As Is</a>
+                    <a href="#">Patient Referral</a>
+                    <a href="#">Other Roofing</a>
+                </div>
+            </div>
+            <div>
+                <h3 class="footer-h3">Location</h3>
+                <p class="footer-p1">
+                    Our goal is to empower you with the knowledge and support needed to
+                    build resilience, strengthen your mental health, and lead a more
+                    fulfilling life.
+                </p>
+            </div>
+        </div>
+        <hr />
+        <p class="footer-p">&copy; 2025 All Rights Reserved</p>
+    </footer>
 
-</div>
-
+    <script src="main.js"></script>
 </body>
+
 </html>
