@@ -192,68 +192,6 @@
   font-size: 12px;
 }
 
-/* Services section */
-.services {
-  margin-top: 100px;
-}
-
-/* Services header */
-.services-part {
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
-}
-
-/* Services title */
-.services-h1 {
-  font-weight: 600;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-/* Services description */
-.services-p1 {
-  font-weight: 300;
-  width: 60%;
-  text-align: center;
-}
-
-/* Services cards container */
-.services-container {
-  margin-top: 80px;
-  display: flex;
-  gap: 70px;
-}
-
-/* Individual service card */
-.service-card {
-  width: 1000px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  border: 1px solid black;
-  border-radius: 15px;
-  padding: 40px;
-  border-top: 2px solid #dcdcdc;
-  border-left: 2px solid #dcdcdc;
-  border-bottom: 2px solid #555555;
-  border-right: 2px solid #555555;
-}
-
-/* Service card title */
-.service-title {
-  margin-top: 5px;
-  margin-bottom: 10px;
-  color: #2dcf57;
-}
-
-/* Service card description */
-.service-desc {
-  font-weight: 200;
-}
-
 /* Appointment call-to-action section */
 .appointment-container {
   background-image: url("images/backgroundd.png");
