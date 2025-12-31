@@ -1,3 +1,4 @@
+/* Reset all default styles and set font */
 * {
   margin: 0;
   padding: 0;
@@ -5,10 +6,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Main container - light green background */
 .container {
   background-color: #eafff0;
 }
 
+/* Navigation bar styles */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -16,6 +19,7 @@
   padding: 20px 10%;
 }
 
+/* Logo text color */
 .blu {
   text-decoration: none;
   color: #2dcf57;
@@ -23,32 +27,39 @@
   font-size: 20px;
 }
 
+/* Navigation links container */
 .navbar-lists {
   display: flex;
   gap: 30px;
 }
 
+/* Navigation link styles */
 .navbar-lists a {
   text-decoration: none;
   color: rgb(61, 54, 54);
   font-weight: 600;
 }
 
+/* Login/Sign Up buttons container */
 .navbar-btns {
   display: flex;
   gap: 15px;
 }
 
+/* Login button styles */
 .login-btn {
-  color: rgb(61, 54, 54);
+  color: var(--text-color-secondary);
   font-size: 14px;
   font-weight: 600;
   padding: 5px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  background-color: transparent;
+  /* Explicitly transparent or use var if intended */
 }
 
+/* Sign Up button - green background */
 .signup-btn {
   background-color: #2dcf57;
   color: white;
@@ -60,6 +71,7 @@
   cursor: pointer;
 }
 
+/* Hamburger menu - hidden on desktop, shown on mobile */
 .hamburger-menu {
   display: none;
   flex-direction: column;
@@ -67,6 +79,7 @@
   cursor: pointer;
 }
 
+/* Hamburger menu lines (3 horizontal lines) */
 .hamburger-menu span {
   width: 25px;
   height: 3px;
@@ -74,6 +87,7 @@
   border-radius: 2px;
 }
 
+/* Hero section - main banner at top */
 .hero-container {
   display: flex;
   justify-content: center;
@@ -89,22 +103,26 @@
   width: 95%;
 }
 
+/* Hero title */
 .hero-h1 {
   font-weight: 600;
   font-size: 40px;
 }
 
+/* Hero description text */
 .hero-p1 {
   font-weight: 300;
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
+/* Hero buttons container */
 .hero-btns {
   display: flex;
   gap: 20px;
 }
 
+/* Primary hero button - green */
 .hero-btn1 {
   background-color: #2dcf57;
   padding: 8px 13px;
@@ -116,6 +134,7 @@
   cursor: pointer;
 }
 
+/* Secondary hero button - white background */
 .hero-btn2 {
   background-color: #eafff0;
   padding: 8px 13px;
@@ -126,17 +145,20 @@
   cursor: pointer;
 }
 
+/* Main content sections container */
 .other-sections {
   width: 80%;
   margin-left: 10%;
 }
 
+/* Statistics section */
 .section2 {
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
 }
 
+/* Stat card with green background */
 .section2-greens {
   background-color: #2dcf57;
   color: white;
@@ -148,6 +170,7 @@
   border-radius: 15px;
 }
 
+/* Stat card with black background */
 .section2-blacks {
   background-color: #242424;
   color: white;
@@ -159,18 +182,22 @@
   border-radius: 15px;
 }
 
+/* Stat number */
 .section2-h1 {
   font-size: 40px;
 }
 
+/* Stat label */
 .section2-p {
   font-size: 12px;
 }
 
+/* Services section */
 .services {
   margin-top: 100px;
 }
 
+/* Services header */
 .services-part {
   display: flex;
   flex-direction: column;
@@ -178,24 +205,28 @@
   align-items: center;
 }
 
+/* Services title */
 .services-h1 {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 10px;
 }
 
+/* Services description */
 .services-p1 {
   font-weight: 300;
   width: 60%;
   text-align: center;
 }
 
+/* Services cards container */
 .services-container {
   margin-top: 80px;
   display: flex;
   gap: 70px;
 }
 
+/* Individual service card */
 .service-card {
   width: 1000px;
   display: flex;
@@ -211,16 +242,19 @@
   border-right: 2px solid #555555;
 }
 
+/* Service card title */
 .service-title {
   margin-top: 5px;
   margin-bottom: 10px;
   color: #2dcf57;
 }
 
+/* Service card description */
 .service-desc {
   font-weight: 200;
 }
 
+/* Appointment call-to-action section */
 .appointment-container {
   background-image: url("images/backgroundd.png");
   margin-top: 100px;
@@ -234,11 +268,13 @@
   padding: 10% 15%;
 }
 
+/* Appointment title */
 .ap-h1 {
   font-size: 30px;
   margin-top: 10px;
 }
 
+/* Appointment button */
 .ap-btn {
   background-color: black;
   padding: 8px 13px;
@@ -251,6 +287,7 @@
   margin-top: 30px;
 }
 
+/* Reviews section header */
 .clients-part {
   margin-top: 100px;
   display: flex;
@@ -259,24 +296,28 @@
   align-items: center;
 }
 
+/* Reviews title */
 .clients-h1 {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 10px;
 }
 
+/* Reviews description */
 .clients-p1 {
   font-weight: 300;
   width: 60%;
   text-align: center;
 }
 
+/* Reviews carousel container */
 .clients-container {
   display: flex;
   align-items: center;
   margin-top: 70px;
 }
 
+/* Left/right arrow buttons */
 .arrow {
   color: black;
   border: 1px solid black;
@@ -287,10 +328,12 @@
   margin: 0 60px;
 }
 
+/* Arrow hover effect */
 .arrow:hover {
   background-color: #a6e8b7;
 }
 
+/* Review card */
 .clients-card {
   width: 90%;
   height: 40%px;
@@ -303,12 +346,14 @@
   padding: 70px;
 }
 
+/* Review card header */
 .card {
   display: flex;
   align-items: center;
   gap: 100px;
 }
 
+/* Client info container */
 .mini-card {
   display: flex;
   justify-content: center;
@@ -316,6 +361,7 @@
   gap: 20px;
 }
 
+/* Client photo */
 .card img {
   width: 100px;
   height: 100px;
@@ -323,28 +369,26 @@
   object-fit: cover;
 }
 
+/* Client name */
 #name {
   font-size: 18px;
   color: #333;
   width: 300px;
 }
 
+/* Review date */
 #date {
   font-size: 14px;
   color: #555;
 }
 
-#reviews {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+/* Star rating */
 #stars {
   font-size: 30px;
   color: orange;
 }
 
+/* Review text */
 #writtenReview {
   font-style: italic;
   text-align: center;
@@ -353,6 +397,7 @@
   margin-top: 30px;
 }
 
+/* Why choose us section header */
 .why-part {
   margin-top: 100px;
   display: flex;
@@ -361,30 +406,35 @@
   align-items: center;
 }
 
+/* Why choose us title */
 .why-h1 {
   font-weight: 600;
   font-size: 24px;
   margin-bottom: 10px;
 }
 
+/* Why choose us description */
 .why-p1 {
   font-weight: 300;
   width: 60%;
   text-align: center;
 }
 
+/* Why choose us container */
 .why-container {
   margin-top: 100px;
   display: flex;
   gap: 100px;
 }
 
+/* Reasons list */
 .why-lists {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+/* Individual reason item */
 .why-reasons {
   display: flex;
   gap: 15px;
@@ -408,16 +458,19 @@
   height: 20px;
 }
 
+/* Reason description text */
 .why-p {
   font-weight: 300;
   font-size: 14px;
   color: #242424;
 }
 
+/* Reason title */
 .why-h3 {
   color: #2dcf57;
 }
 
+/* Contact form section */
 .request-section {
   display: flex;
   margin-top: 100px;
@@ -428,6 +481,7 @@
   border-radius: 30px;
 }
 
+/* Form description on left */
 .request-left {
   display: flex;
   flex-direction: column;
@@ -455,6 +509,7 @@
   width: 200px;
 }
 
+/* Form on right */
 .request-right {
   display: flex;
   flex-direction: column;
@@ -462,6 +517,7 @@
   gap: 20px;
 }
 
+/* Form input fields */
 .input {
   padding: 15px;
   padding-right: 200px;
@@ -471,6 +527,7 @@
   font-size: 14px;
 }
 
+/* Submit button */
 .submit-btn {
   background-color: #2dcf57;
   padding: 8px 13px;
@@ -482,6 +539,7 @@
   cursor: pointer;
 }
 
+/* Footer */
 .footer-container {
   background-color: #eafff0;
   margin-top: 100px;
@@ -493,6 +551,7 @@
   justify-content: space-between;
 }
 
+/* Social media links */
 .links {
   display: flex;
   gap: 15px;
@@ -532,11 +591,12 @@
   padding-bottom: 20px;
 }
 
-/* Responsive styles */
+/* Mobile responsive styles */
 @media (max-width: 768px) {
   .container {
     padding-bottom: 40px;
   }
+
   .navbar-lists,
   .navbar-btns {
     display: none;
@@ -550,22 +610,15 @@
     border-radius: 5px;
   }
 
+  .login-btn {
+    display: none;
+  }
+
   .navbar-lists a,
   .navbar-btns button {
     padding: 10px;
     text-align: left;
     width: 100%;
-    background: none;
-    color: rgb(61, 54, 54);
-    font-size: 16px;
-    font-weight: 600;
-    border: none;
-    border-radius: 0;
-    cursor: pointer;
-  }
-
-  .signup-btn {
-    color: #2dcf57 !important;
   }
 
   .hamburger-menu {
@@ -681,4 +734,159 @@
     flex-direction: column;
     gap: 10px;
   }
+} /* Modal Background Overlay */
+.modal-overlay {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black w/ opacity */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Content Box */
+.modal-content {
+  background-color: #eafff0;
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  text-align: center;
+  animation: slideIn 0.3s ease-out;
+}
+
+/* Animation for opening */
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Close Button (X) */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+/* Modal Title */
+.modal-h1 {
+  color: #2dcf57;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.modal-submit-btn {
+  background-color: #2dcf57;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.modal-submit-btn:hover {
+  background-color: #24a746;
+}
+
+/* Success Message Styles */
+.success-message {
+  display: none;
+  /* Hidden by default */
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.success-icon {
+  font-size: 50px;
+  color: #2dcf57;
+  margin-bottom: 10px;
+}
+
+.success-title {
+  color: #2dcf57;
+  font-size: 24px;
+  margin: 0;
+}
+
+.success-text {
+  color: #555;
+  font-size: 16px;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Request Success Styles */
+#requestSuccess {
+  display: none;
+  color: #2dcf57;
+  text-align: center;
+  padding: 20px;
+}
+#requestSuccess i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* Error Message Styles */
+.error-message {
+  display: none;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
 }

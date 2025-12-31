@@ -1,3 +1,4 @@
+/* Reset styles and set font */
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,8 @@
   font-family: "Poppins", sans-serif;
 }
 
+/* Navigation bar */
+/* Uses flexbox to space items (logo, links, buttons) across the header */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -30,11 +33,13 @@
   font-weight: 600;
 }
 
+/* Login/Sign Up buttons container */
 .navbar-btns {
   display: flex;
   gap: 15px;
 }
 
+/* Login button styles */
 .login-btn {
   color: rgb(61, 54, 54);
   font-size: 14px;
@@ -45,6 +50,7 @@
   cursor: pointer;
 }
 
+/* Sign Up button - green background */
 .signup-btn {
   background-color: #2dcf57;
   color: white;
@@ -56,6 +62,7 @@
   cursor: pointer;
 }
 
+/* Hamburger menu - hidden on desktop, shown on mobile */
 .hamburger-menu {
   display: none;
   flex-direction: column;
@@ -75,6 +82,7 @@
   margin-left: 10%;
 }
 
+/* Services section */
 .services {
   margin-top: 100px;
 }
@@ -98,6 +106,7 @@
   text-align: center;
 }
 
+/* About Us section header */
 .why-part {
   margin-top: 100px;
   display: flex;
@@ -118,6 +127,7 @@
   text-align: center;
 }
 
+/* About Us content container */
 .why-container {
   margin-top: 100px;
   display: flex;
@@ -135,6 +145,8 @@
   gap: 15px;
 }
 
+/* Inner container for reason items */
+/* Flex column ensures text and icons stack vertically within each item */
 .inside-why {
   display: flex;
   flex-direction: column;
@@ -163,6 +175,7 @@
   color: #2dcf57;
 }
 
+/* Appointment call-to-action section */
 .appointment-container {
   background-image: url("images/backgroundd.png");
   margin-top: 100px;
@@ -193,6 +206,7 @@
   margin-top: 30px;
 }
 
+/* Contact form section */
 .request-section {
   display: flex;
   margin-top: 100px;
@@ -257,6 +271,7 @@
   cursor: pointer;
 }
 
+/* Footer container */
 .footer-container {
   background-color: #eafff0;
   margin-top: 100px;
@@ -307,10 +322,12 @@
   padding-bottom: 20px;
 }
 
+/* Mobile responsive styles */
 @media (max-width: 768px) {
   .container {
     padding-bottom: 40px;
   }
+
   .navbar-lists,
   .navbar-btns {
     display: none;
@@ -397,4 +414,159 @@
     flex-direction: column;
     gap: 10px;
   }
+} /* Modal Background Overlay */
+.modal-overlay {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black w/ opacity */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Modal Content Box */
+.modal-content {
+  background-color: #eafff0;
+  padding: 30px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  text-align: center;
+  animation: slideIn 0.3s ease-out;
+}
+
+/* Animation for opening */
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Close Button (X) */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #000;
+}
+
+/* Modal Title */
+.modal-h1 {
+  color: #2dcf57;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.modal-submit-btn {
+  background-color: #2dcf57;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.modal-submit-btn:hover {
+  background-color: #24a746;
+}
+
+/* Success Message Styles */
+.success-message {
+  display: none;
+  /* Hidden by default */
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.success-icon {
+  font-size: 50px;
+  color: #2dcf57;
+  margin-bottom: 10px;
+}
+
+.success-title {
+  color: #2dcf57;
+  font-size: 24px;
+  margin: 0;
+}
+
+.success-text {
+  color: #555;
+  font-size: 16px;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Request Success Styles */
+#requestSuccess {
+  display: none;
+  color: #2dcf57;
+  text-align: center;
+  padding: 20px;
+}
+#requestSuccess i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* Error Message Styles */
+.error-message {
+  display: none;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
 }
