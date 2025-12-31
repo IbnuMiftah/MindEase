@@ -6,6 +6,9 @@
   font-family: "Poppins", sans-serif;
 }
 
+.container {
+  background-color: #eafff0;
+}
 /* Navigation bar */
 /* Uses flexbox to space items (logo, links, buttons) across the header */
 .navbar {
