@@ -6,9 +6,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-.container {
-  background-color: #eafff0;
-}
 /* Navigation bar */
 .navbar {
   display: flex;
